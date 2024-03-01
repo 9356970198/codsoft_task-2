@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Durga Tours & Travels Company Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Durga Tours & Travels</h1>
+        <p>Travellers are Dreamers Who Make Their Desires For Advanture A Reality</p>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Our Website</h2>
+        <p>Our Services - Travel Management , Passenger Assistance , Consulting</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <section class="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Feature 1 - A Good Communication to All Passengers</li>
+            <li>Feature 2 - A Good Management of Travelling</li>
+            <li>Feature 3 - A Good Coordination with all Passengers</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out for more information.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="type" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Durga Tours & Travels. All rights reserved.</p>
+    </footer>
+</body>
+</html>
